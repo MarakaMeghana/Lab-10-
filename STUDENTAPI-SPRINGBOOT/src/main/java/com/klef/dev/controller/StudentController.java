@@ -24,6 +24,12 @@ public class StudentController {
     {
         return "Docker Full Stack Deployment Demo";
     }
+     @GetMapping("/docker")
+    public String docker() 
+    {
+        return "Docker Full Stack Deployment Demo with git actions";
+    }
+
     
 
     @PostMapping("/add")
